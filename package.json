@@ -1,0 +1,32 @@
+{
+  "name": "cuddly-couscous",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/client/index.js",
+  "scripts": {
+    "test": "test",
+    "start": "webpack",
+    "dev": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiviLammister/cuddly-couscous.git"
+  },
+  "author": "LiviLammister",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiviLammister/cuddly-couscous/issues"
+  },
+  "homepage": "https://github.com/LiviLammister/cuddly-couscous#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "@babel/register": "^7.6.2",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
